@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/cookie-items.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./bootstrap-icons-1.11.3/font/bootstrap-icons.min.css">
+    <title>待辦事項</title>
+
+</head>
+<body style="background-color: #212121">
+    <h3 id="title" class="mx-3 mt-3" style=" color:#ffc107"></h3>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-6 mt-5 mx-auto">
+                <div class="mb-3">
+                    <label class="form-label" style=" color:#ffc107">項目</label>
+                    <input name="items" type="text" class="form-control" id="item">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" style=" color:#ffc107">時間</label>
+                    <input name="datatime" type="datetime-local" class="form-control" id="datatime">
+                </div>
+                <div class="text-center mt-3">
+                    <button type="button" id="add" class="btn btn-outline-warning w-25">新增</button>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5" id="viewitems">
+
+        </div>
+        
+    </div>
+</body>
+</html>

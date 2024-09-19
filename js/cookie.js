@@ -7,8 +7,10 @@ function setCookie(name, value, days) {
     }
     document.cookie = name + "=" + (value || "") + expires + "; path=/";
 }
-$('#add').click(function(){
-
-    var name = $('#name').val();
-    setCookie('username', name, 999999);
-})
+$(document).ready(function() {
+    $('#add').click(function(){
+        var name = $('#name').val();
+        setCookie('username', name, 999999);
+        location.href='../items.html';
+    });
+});
