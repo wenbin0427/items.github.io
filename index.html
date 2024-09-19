@@ -9,10 +9,26 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./bootstrap-icons-1.11.3/font/bootstrap-icons.min.css">
+    <script src="./js/cookie.js"></script>
     <title>待辦事項</title>
 
 </head>
 <body style="background-color: #212121">
 
+    <div class="container">
+        <div class="col-sm-3 col-10 mx-auto position-absolute top-50 start-50 translate-middle">
+            <div class="row">
+                <div class="card border-warning-subtle" style="background-color: #353535;">
+                    <h3 class="text-center mt-4 fw-semibold"  style=" color:#ffc107">建立屬於你的待辦事項</h3>
+                    <div class="card-body">
+                        <input id="name" type="text" class="login form-control text-center text-white border-warning-subtle" placeholder="輸入您的名字" style="background-color: #353535;">
+                        <button type="button" id="add" class="btn btn-outline-success mx-auto d-flex mt-5">建立</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- border-warning-subtle position-absolute top-50 start-50 translate-middle -->
 </body>
 </html>
