@@ -11,7 +11,7 @@ $(document).ready(function() {
     $('#add').click(function(){
         var name = $('#name').val();
         setCookie('username', name, 999999);
-        location.href='../items.html';
+        location.href='./items.html';
     });
 });
 
