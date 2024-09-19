@@ -14,3 +14,7 @@ $(document).ready(function() {
         location.href='../items.html';
     });
 });
+
+$(function () {
+    $('[data-toggle="popover"]').popover(); // 初始化 Popover
+});
