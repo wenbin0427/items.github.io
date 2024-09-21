@@ -10,7 +10,7 @@ function setCookie(name, value, days) {
 $(document).ready(function() {
     $('#add').click(function(){
         var name = $('#name').val();
-        setCookie('username', name, 999999);
+        setCookie('username', name, 99);
         location.href='./items.html';
     });
 });
